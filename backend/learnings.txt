@@ -1,0 +1,30 @@
+Hospital mngt system
+
+Backend
+ 
+User Portal (User will use it -> Patient)
+Admin portal (Doctors, Admin)
+
+**********************************
+
+Admin -> Developer (1st admmin) -> Admin registration by other admin
+    Doctor -> Registered by Admin
+    Patient -> self registration
+
+
+admin
+doctor
+patient
+
+********************************************************
+Appointments
+
+Admin => Edit any Appointment
+Doctor => Only edit the appointments booked under his/her name
+Patient => Only edit the appointments booked by him/her 
+
+*****************************************************
+Redux
+
+Component -> dispatch an Action -> Reducer -> Store (Update) -> Other components 
+
